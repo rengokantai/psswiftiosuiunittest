@@ -21,3 +21,9 @@ let app = XCUIApplication()
 let table = app.tables["mainTable"]
 ```
 
+### 4 Working with XCTAssert
+#### 06:14
+```
+let table = app.tables["mainTable"]
+XCTAssertEqual(table.cells.count,5)
+```
